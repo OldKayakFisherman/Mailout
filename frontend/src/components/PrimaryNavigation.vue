@@ -3,9 +3,17 @@
 </script>
 
 <template>
-    <v-sheet :height="200" :width="200">Primary Navigation</v-sheet>
+    <div>
+        <v-sheet :height="50">
+            <div class="page_header">MEPS</div>
+        </v-sheet>
+    </div>
 </template>
 
 <style>
-
+    .page_header{
+        font-weight: bold;
+        font-size: larger;
+        padding-left: 2%;
+    }
 </style>
